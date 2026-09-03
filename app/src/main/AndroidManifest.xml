@@ -33,7 +33,7 @@
         </activity>
 
         <!-- Elite SDK Services -->
-        <service android:name="com.elite.core.system.DaemonService" android:exported="false" android:process=":daemon" />
+        <service android:name="com.elite.core.system.DaemonService" android:exported="false" android:process=":daemon" tools:replace="android:process" />
         <activity android:name="com.elite.app.LauncherActivity" android:exported="false" android:launchMode="singleTask" android:excludeFromRecents="true" />
 
     </application>
