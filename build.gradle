@@ -1,4 +1,4 @@
-// Elite Loader Easy - Top Level
+// TEAM DARK LOADER Easy - Top Level
 buildscript {
     repositories {
         google()
@@ -28,8 +28,8 @@ ext {
     targetSdk = 34
     ndkVersion = "25.1.8937393"
     // APP CONFIG - Yahan naam change karo
-    appName = "Elite Loader"
-    appPackage = "com.elite.loader"
+    appName = "TEAM DARK LOADER"
+    appPackage = "com.teamdark.loader"
     versionCode = 1
     versionName = "1.0"
 }

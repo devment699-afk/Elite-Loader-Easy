@@ -7,7 +7,7 @@ package com.elite.loader
  */
 object AppConfig {
     // 1. APP NAAM - yahan change karo (File Manager me bhi dikhega)
-    const val APP_NAME = "Elite Loader"
+    const val APP_NAME = "TEAM DARK LOADER"
 
     // 2. THEME COLOR - yahan color code change karo
     const val THEME_PRIMARY = "#00E5FF" // Neon Cyan
