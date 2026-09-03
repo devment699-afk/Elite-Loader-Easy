@@ -1,0 +1,35 @@
+// Elite Loader Easy - Top Level
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22'
+        classpath 'org.lsposed.lsparanoid:gradle-plugin:0.5.2'
+    }
+}
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+task clean(type: Delete) { delete rootProject.buildDir }
+
+// Easy Config - yahan se sab change karo
+ext {
+    compileSdk = 34
+    buildTools = "34.0.0"
+    minSdk = 24
+    targetSdk = 34
+    ndkVersion = "25.1.8937393"
+    // APP CONFIG - Yahan naam change karo
+    appName = "Elite Loader"
+    appPackage = "com.elite.loader"
+    versionCode = 1
+    versionName = "1.0"
+}

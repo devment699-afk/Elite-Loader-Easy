@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.EliteLoader" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/elite_neon</item>
+        <item name="colorOnPrimary">@color/elite_bg</item>
+        <item name="colorSecondary">@color/elite_purple</item>
+        <item name="android:statusBarColor">@color/elite_bg</item>
+        <item name="android:navigationBarColor">@color/elite_bg</item>
+    </style>
+</resources>

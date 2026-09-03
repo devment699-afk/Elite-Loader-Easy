@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- EASY: Yahan color change karo + AppConfig.kt me bhi -->
+    <color name="elite_bg">#060A14</color>
+    <color name="elite_bg2">#0A1426</color>
+    <color name="elite_surface">#0F1F38</color>
+    <color name="elite_card">#0D1B33</color>
+    <color name="elite_neon">#00E5FF</color>
+    <color name="elite_neon2">#00FFA3</color>
+    <color name="elite_purple">#7B61FF</color>
+    <color name="elite_text">#E6F1FF</color>
+    <color name="elite_text2">#8AA0BE</color>
+    <color name="elite_border">#1A3355</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
