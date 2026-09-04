@@ -9,9 +9,8 @@ android {
     compileSdk rootProject.ext.compileSdk
     buildToolsVersion rootProject.ext.buildTools
 
-    // aidlPackagedList disabled for easy build (fix aidl syntax error)
-    // aidlPackagedList "android/app/IServiceConnection.aidl"
-    // aidlPackagedList "android/accounts/IAccountManagerResponse.aidl"
+    aidlPackagedList "android/app/IServiceConnection.aidl"
+    aidlPackagedList "android/accounts/IAccountManagerResponse.aidl"
 
     defaultConfig {
         minSdk rootProject.ext.minSdk
@@ -58,7 +57,7 @@ android {
     }
 
     buildFeatures {
-        aidl false
+        aidl true
         prefab true
     }
 
